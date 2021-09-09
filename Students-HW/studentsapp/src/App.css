@@ -1,0 +1,62 @@
+.App {
+    height: 100vh;
+    width: 100vw;
+    display:grid;
+    grid-template-columns:80px 1fr 80px; 
+    grid-template-rows: 30px 1fr;
+    text-align: center;
+    background-color:rgb(237, 237, 208);
+
+  }
+  #main_container{
+   grid-column: 2/3; 
+   grid-row: 2/3;
+   display: flex;
+   flex-direction: column;
+
+  }
+  h1{
+    height: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(153, 68, 8);
+  }
+  #inner_ctn{
+    border: rgb(4, 77, 73) solid;
+    display: flex;
+    justify-content: column;
+    height: 90%;
+    background-color: rgb(166, 214, 214);
+
+  }
+  .std{
+    border: rgb(156, 133, 2) solid;
+    margin: 30px;
+    padding: 20px;  
+    display: flex; 
+    flex-direction: column;
+    background-color: rgb(253, 250, 246);
+  }
+  .inner_std{
+    margin: 8px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  .tab{
+    text-align: center;
+    border: solid;
+    background-color: rgb(228, 239, 231);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid rgb(1, 121, 11);
+  }
+  th{
+    border: solid rgb(1, 121, 11);
+  }
+  td{
+    border: solid rgb(1, 121, 11);
+    
+  }
+  p{
+    text-align: justify
+  }
