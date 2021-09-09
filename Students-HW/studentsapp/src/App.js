@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Student from "./student";
+import Student from "./Components/student";
 import './App.css'
 
 function App() {
