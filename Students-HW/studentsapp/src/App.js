@@ -75,8 +75,8 @@ function App() {
 
         <div id='main_container'>
 
-          <h1>Students App</h1>
-          
+          <h1>Student App</h1>
+
         <div id='inner_ctn'>
           {students.map((student, index) => (
           <Student student={student} key={index} /> ))}
