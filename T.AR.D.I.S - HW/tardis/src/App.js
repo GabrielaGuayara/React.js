@@ -1,6 +1,6 @@
 import './App.css';
 import React, {Component} from "react"; 
-import DivOne from './divOne.js'
+import DivOne from './components/divOne'
 
 class App extends Component {
 
