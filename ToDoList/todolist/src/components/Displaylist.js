@@ -5,7 +5,7 @@ import Delete from '../img/delete2.png'
 const Displaylist = (props) => {
    const checktask ={
             textDecoration: props.list.complete ?  'line-through': 'none', //if the task is complete, a line will be drawn over the text
-            backgroundColor: props.list.complete ?   'transparent': 'rgb(255, 255, 87)' //if the task is not complete, the background of the item will change. 
+            backgroundColor: props.list.complete ?   'transparent': 'rgb(255, 255, 87)' //if the task is not complete, the background of the item will be yellow. 
         }
     return (
             //Style items using an object.
