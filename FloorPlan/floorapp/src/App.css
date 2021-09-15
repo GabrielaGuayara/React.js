@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+
+}
+.ctn{
+  display: grid;
+  height: 100vh;
+  color: black;
+}
+.row1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr;
+}
+.row2{
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+}
+.BedandBath{
+  display: flex;
+  flex-direction: column;
+}
+#bed-1{
+  height: 60%;
+}
+#bath-Full{
+  height: 40%;
+  background-color: rgb(40, 122, 24);
+}
+
+.ovenandsink{
+  display: flex;
+  height: 15%;
+ 
+}
+#oven{
+  width: 50%;
+  background: rgb(166, 43, 43);
+}
+#sink{
+  width: 50%;
+  background: rgb(97, 43, 43);
+}
+h2{
+position: relative;
+top: 40%;
+}
+.bedroom{
+  background:rgb(0, 128, 128);
+}
+#bath-Half{
+  background-color: rgb(40, 122, 24);
+}
+#livroom{
+  background: rgb(245, 222, 179);
+}
+.kitchen{
+ background: rgb(247, 195, 84);
+}
